@@ -2,7 +2,6 @@
 .kotlin
 .gradle
 **/build/
-xcuserdata
 !src/**/build/
 local.properties
 .idea
@@ -10,12 +9,6 @@ local.properties
 captures
 .externalNativeBuild
 .cxx
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcodeproj/project.xcworkspace/
-!*.xcworkspace/contents.xcworkspacedata
-**/xcshareddata/WorkspaceSettings.xcsettings
 node_modules/
 
 # Android artifacts and local credentials
@@ -30,3 +23,25 @@ render.experimental.xml
 *.keystore
 google-services.json
 *.hprof
+
+# iOS / Xcode local state, build output, and signing exports
+DerivedData/
+.build/
+xcuserdata/
+*.xcuserstate
+*.xcarchive
+*.xcresult
+*.ipa
+*.dSYM/
+*.dSYM.zip
+*.mobileprovision
+*.provisionprofile
+*.p12
+
+# Keep Xcode projects and shared workspace settings needed by the team
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
