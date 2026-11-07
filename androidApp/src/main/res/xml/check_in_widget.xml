@@ -1,0 +1,7 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/check_in_widget" android:minWidth="280dp" android:minHeight="110dp"
+    android:minResizeWidth="184dp" android:minResizeHeight="110dp" android:maxResizeHeight="144dp"
+    android:previewLayout="@layout/check_in_widget"
+    android:targetCellWidth="5" android:targetCellHeight="2"
+    android:updatePeriodMillis="1800000" android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"/>

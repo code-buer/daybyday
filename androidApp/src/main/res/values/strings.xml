@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Daybyday</string>
+    <string name="widget_name">今日打卡</string>
+    <string name="widget_done">确认打卡</string>
+    <string name="widget_completed">✓ 已打卡</string>
+    <string name="widget_empty">点此打开 Daybyday 添加事项</string>
+    <string name="widget_done_description">确认打卡：%1$s</string>
+    <string name="widget_completed_description">已打卡：%1$s</string>
+    <string name="widget_previous_page">上一页</string>
+    <string name="widget_next_page">下一页</string>
+    <string name="widget_previous_symbol">‹</string>
+    <string name="widget_next_symbol">›</string>
+</resources>
